@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Staroslovenska mitologija</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.css"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+ 
+
+ 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+  <script>
+	$(window).on('scroll', function(){
+		if($(window).scrollTop()){
+			$('nav').addClass('black');
+		}
+		else
+		{
+			$('nav').removeClass('black');
+		}
+	})
+	
+	
+	
+	</script>
+<script>
+$(document).ready(function() {
+		
+	var respmenu 		= $('#respmenu');
+	var	menu 			= $('#nav>ul');
+
+	$(respmenu).on('click', function(e) {
+		e.preventDefault();
+		menu.slideToggle();
+	});
+	
+	$(window).resize(function(){
+		var sirina = $(window).width();
+		if(sirina > 768 && menu.is(':hidden')) {
+			menu.removeAttr('style');
+		}	
+	});
+	
+});	
+	
+
+
+</script>
+
+<script>   
+    $(window).scroll(function() {
+
+    if ($(this).scrollTop()>50)
+     {
+        $('.fade').fadeOut();
+     }
+    else
+     {
+      $('.fade').fadeIn();
+     }
+ });
+</script> 
+
+<script>
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+
+
+</head>
+
+<body>
+	<nav>
+		
+		<div id="logo">
+			<img src="img/logo.svg">
+		</div>
+		<div id="nav">
+		<ul>
+			<li><a href="index.html">Početna</a></li>
+			<li><a href="bogovi.html">Božanstvo</a></li>
+			<li><a href="bica.html">Mitska bića</a></li>
+			<li><a href="mesta.html">Mitska mesta</a></li>
+			<li><a href="movie.html">Dokumentarni filmovi</a></li>
+		</ul>
+		<a href="#" id="respmenu" class="button"><i class="fa fa-lg fa-navicon"></i>&nbsp;&nbsp;&nbsp;&nbsp;Staroslovenska mitologija</a>
+		</div>
+	</nav>
+	<section id="hero" class="box temp bica">
+		<div id="heroin" class="fade  wow fadeIn">
+			<h1><span> STAROSLOVENSKA MITOLOGIJA </span><br>
+			Mitska bića</h1>
+		</div>
+	</section>
+	
+	<section id="sec1">
+	<div class="wrapper">
+		
+	<div id="content3">
+		
+		<header class="wow fadeInUp" data-wow-delay="0.1s">
+		<h1>Mitska bića</h1>
+		<p> Stari sloveni su gajili verovanja u sledeca mitska bića. Neka od njih su se i danas zadržala i u nekim krajevima se i dalje veruje u postojanje ovih bića. A neki su doživeli svetsku slavu i izašli iz okvira Slovenske mitologije, poput vampira.</p>
+		</header>
+		
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.2s"><h3>Aždaja</h3>
+		<p>  
+			Aždaja je ogromno čudovište nakaradnog oblika, koje se još naziva i aždaha, aždahaka ili, pogrešno, ala. Ima velike čeljusti, oštre zube i dug, skoro zmijski jezik, uvek ima i četiri noge i dugačak rep, a umesto jedne ima tri, pet, pa i više glava. Aždaja živi po velikim vodama gde sačekuje prolaznike, izranja i proždire ljude i životinje. Aždaje često žive u dubokim jezerima, u blizini velikih šuma, odakle izlaze oko ponoći, da bi se hranile. Osim u jezerima, ima ih i u širokim rekama, a neki kažu čak i u moru. U nekim krajevima za dugu na nebu veruje se da je aždaja koja pije vodu.</p>
+		
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Vampir</h3>
+		<p>
+			
+			
+			Vampir je među svim narodima prihvaćeno mitološko biće, preuzeto iz slovenske mitologije. Vampirom se, posebno na Balkanu i u Ukrajini, smatra duh umrlog ili leš koji je oživeo, a oživeo ga je zao duh ili đavo; to je pokojnik čija duša ne može da ode na onaj svet, već ostaje zarobljena u umrlom telu. Ponegde se naziva još i lampir ili upir. Reč vampir je poreklom srpska, pa je preko ostalih slovenskih jezika ušla u sve jezike sveta. O ubijanju vampira, ali bez pominjanja ovog imena, govori se još u „Zakoniku srpskog cara Dušana“, proglašenom 1349. godine, u članu 20: „O vračarima, koji tela mrtvih spaljuju“.
+		</p>
+	
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Bes</h3>
+		<p>
+			Zao duh koji se uvlači u čoveka ili životinju i koji ih nagoni da pobesne. Besovi, bijesovi ili bijesi, ponegde i jadi („kakvi te jadi more?“) nekakvi su mračni duhovi koji „kidišu“ na ljude; oni ulaze u telo čoveka i obuzimaju ga iznutra. Time stiču vlast nad čovekom, navodeći ga na blud, laž, poroke, bezumno ponašanje...
+		</p>
+	
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Anđeo</h3>
+		<p>
+			Anđeli su svi veoma slični, imaju krila i uvek su izuzetno lepi jer njihova fizička lepota oličava njihovu duševnu čistotu. Često se iz istog razloga opisuju i kao beli ili bleštavi. Umilnog su glasa, večno mladi i nevidljivi običnim ljudima i grešnicima. Ima ih koliko i ljudi, jer svaki čuva „svog“ čoveka. U ruci obično nose mač, iako iz predanja nije jasno da li ga i u koje svrhe koriste.
+		</p>
+	
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Vilenjaci</h3>
+		<p>
+			Vilenjaci su, prema predanju, deca smrtnih ljudi i besmrtnih vila. Otuda njihova dugovečnost, ljubav prema slobodi, drskost, a ponekad i izvesna natprirodna svojstva ili snaga. Ovakva deca nisu retkost, jer se rađaju kako iz braka vile i čoveka, tako i iz njihove slobodne ljubavi; ljudski moral, u očima vila, nema nikakvu vrednost, i one su često spremne da iz sopstvenog hira stupe u kratkotrajne i površne odnose sa ljudima.
+		</p>
+	
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Vukodlak</h3>
+		<p>
+			Vukodlak je čovek koji ima vučje obličje, biće koje se pretvorilo u zastrašujući spoj čoveka i vuka, zapravo u demona krvavih očiju prekrivenog vučjom dlakom. Osnovna razlika u odnosu na vampira jeste u tome što je vukodlak pre svega živ čovek, što će i ostati pošto se ovaj preobražaj okonča. Misli se da se vukodlak može prepoznati čak i u ljudskoj formi po nekim karakterističnim znacima, recimo po dlakavim dlanovima, spojenim obrvama ili istoj dužini kažiprsta i srednjeg prsta, a iz demonskog u čovečji oblik može se povratiti ako se dodirne nekim metalom, kao što su gvožđe, čelik ili srebro.
+		</p>
+		</div>
+		
+		<div class="bogovi bica wow fadeInUp" data-wow-delay="0.2s"><h3>Demoni prirode</h3> 
+		
+			<ul>
+				<li>Lesnik</li>
+				<li>Šumska majka</li>
+				<li>Vodenjak</li>
+				<li>Rusalke</li>
+				<li>Vila</li>
+				<li>Poljski duhovi</li>
+			</ul>
+		</div>
+		<div class="bogovi bica wow fadeInUp" data-wow-delay="0.3s"><h3>Atmosverski demoni</h3>
+		<ul>
+				<li>German</li>
+				<li>Vetrogonije</li>
+				<li>Zmaj</li>
+				<li>Ala</li>
+			</ul>
+		</div>
+				<div class="bogovi bica wow fadeInUp" data-wow-delay="0.2s"><h3>Čovekoliki demoni</h3> 
+		
+			<ul>
+				<li>Vampir</li>
+				<li>Baba Jaga</li>
+				<li>Veštica</li>
+				<li>Mora</li>
+			</ul>
+			
+		</div>
+		<div class="bogovi bica wow fadeInUp" data-wow-delay="0.3s"><h3>Domaći demoni</h3>
+		<ul>
+				<li>Zmija čuvarkuća</li>
+				<li>Talason</li>
+				<li>Uslužni duh</li>
+				<li>Krišnji</li>
+			</ul>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<img class="symbol" src="img/kol2.svg">
+	</div>
+	</section>
+		
+		
+
+	
+
+
+
+<script src="js/jquery.backgroundMove.js" type="text/jscript"></script>
+ 
+<script>
+	
+	$(document).ready(function(){
+		var sirina = $(window).width();
+		
+		if(sirina > 768 ) {
+			$('.box').backgroundMove({
+		movementStrength:'50'
+			});
+		}
+});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</script>
+<script src="js/wow.js"></script>
+ <script>
+         new WOW().init();
+ </script>
+</body>
+</html>

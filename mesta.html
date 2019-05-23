@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Staroslovenska mitologija</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.css"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+ 
+
+ 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+  <script>
+	$(window).on('scroll', function(){
+		if($(window).scrollTop()){
+			$('nav').addClass('black');
+		}
+		else
+		{
+			$('nav').removeClass('black');
+		}
+	})
+	
+	
+	
+	</script>
+<script>
+$(document).ready(function() {
+		
+	var respmenu 		= $('#respmenu');
+	var	menu 			= $('#nav>ul');
+
+	$(respmenu).on('click', function(e) {
+		e.preventDefault();
+		menu.slideToggle();
+	});
+	
+	$(window).resize(function(){
+		var sirina = $(window).width();
+		if(sirina > 768 && menu.is(':hidden')) {
+			menu.removeAttr('style');
+		}	
+	});
+	
+});	
+	
+
+
+</script>
+
+<script>   
+    $(window).scroll(function() {
+
+    if ($(this).scrollTop()>50)
+     {
+        $('.fade').fadeOut();
+     }
+    else
+     {
+      $('.fade').fadeIn();
+     }
+ });
+</script> 
+
+<script>
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+
+
+</head>
+
+<body>
+	<nav>
+		
+		<div id="logo">
+			<img src="img/logo.svg">
+		</div>
+		<div id="nav">
+		<ul>
+			<li><a href="index.html">Početna</a></li>
+			<li><a href="bogovi.html">Božanstvo</a></li>
+			<li><a href="bica.html">Mitska bića</a></li>
+			<li><a href="mesta.html">Mitska mesta</a></li>
+			<li><a href="movie.html">Dokumentarni filmovi</a></li>
+		</ul>
+		<a href="#" id="respmenu" class="button"><i class="fa fa-lg fa-navicon"></i>&nbsp;&nbsp;&nbsp;&nbsp;Staroslovenska mitologija</a>
+		</div>
+	</nav>
+	<section id="hero" class="box temp mesta">
+		<div id="heroin" class="fade  wow fadeIn">
+			<h1><span> STAROSLOVENSKA MITOLOGIJA </span><br>
+			Mitska mesta</h1>
+		</div>
+	</section>
+	
+	<section id="sec1">
+	<div class="wrapper">
+		
+	<div id="content3">
+		
+		<header class="wow fadeInUp" data-wow-delay="0.1s">
+		<h1>Mitska mesta</h1>
+		</header>
+		
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.2s"><h3>Groblja</h3>
+		<p>  
+			Prva groblja nastala su sahranjivanjem mrtvih u obližnjim poljima i šumama, pokraj naseobina, a grobovi su označavani najčešće kamenim spomenicima, ali i drvenim štapovima ili visokim humkama zemlje (mogila, ili po ruskom kurgan, od stare reči za krug). Mrtvi su ponekad spaljivani, a njihov pepeo se obično spuštao neposredno u grob, bez urne. U grobovima se često nalazilo i oružje i druge stvari koje su ukazivale na to da je grob novi „stan“ za umrlog. Kao posmrtna žrtva, pokojnika su ponekad pratili i njegov konj, pas ili soko, a umesto nadgrobnog spomenika u zemlju je zabadano oružje, posebno u slučaju poginulih u boju.</p>
+		
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Vodenice</h3>
+		<p>
+			
+			
+			Vodenica je za svakog smrtnika veoma korisno, ali i opasno mesto; danju se tu melje žito, ali je noću treba izbegavati po svaku cenu. Sloveni su verovali da je vodenicu izmislio đavo, na koga su preneseni atributi starih slovenskih bogova i koji je rado i pohodi. U njoj se skupljaju i vampiri, vukodlaci, demoni, a kraj nje drekavci... U vodi pokraj vodenice boravi i sam Vodanoj, vodeni duh koji odatle prolaznike povlači u vodu.
+		</p>
+	
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Vilinsko kolo</h3>
+		<p>
+			Vilinsko kolo, vrzino kolo i gumno nazivi su za slična mesta koja poseduju naročitu magičnu energiju. To može biti proplanak kružnog oblika, na kome se trava razlikuje od okolne, po boji ili drugoj vrsti bilja. To su mesta na kojima se okupljaju i igraju vile ili demoni i veštice.
+		</p>
+	
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Mostovi i raskršća</h3>
+		<p>
+			Sloveni veruju da postoje određena „nečista mesta“ koja treba izbegavati i na kojima se ne treba zadržavati. Mostovi i raskrsnice su takva mesta, jer snažno privlače nečiste sile, pa se tamo, obično noću, mogu sresti mnogi opasni demoni. Provesti noć na mostu smatra se izuzetno hrabrim podvigom. To je način na koji mladići ponekad dokazuju devojkama da su stasali u prave junake.
+		</p>
+	
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Jame i Pećine</h3>
+		<p>
+			Donji svet je za Slovene mesto na koje je moguće stići čak i za života, mada niko nema pravog razloga za to; ovo je mesto sa koga je takođe moguće i vratiti se, mada jako teško. Duboke šumske jame i pećine predstavljaju najčešće ulaze u donji svet. Obično postoje nevidljiva ili skrivena vrata koja ovaj ulaz drže zatvorenim, ali je moguće saznati tajnu njihovog otvaranja, što u slovenskim bajkama polazi za rukom samo najboljim junacima.
+		</p>
+	
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Raj i Nav</h3>
+		<p>
+			Sloveni su verovali da duša pokojnika nakon smrti prelazi u drugi život. Duša odlazi ili u nav ili u raj za koje je Luj Leže, na osnovu postojanja obe reči u svim slovenskim jezicima, pretpostavio da su dva odvojena mesta, pakao i raj. Spaljivanje pokojnika, žrtvovanje oružja, konja i pasa, stavljanje hrane u grob pokojniku i daće na kojima se za mrtve mese naročiti kolači dokazuju da su Sloveni verovali u zagrobni život. U pesmi Smrt Marka Kraljevića, Marko ubija svoga konja Šarca i lomi sablju, verovatno zato da bi i oni pošli sa njim na onaj svet.
+		</p>
+		</div>
+			<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Gradišta i bavani</h3>
+		<p>
+			Gradište je kultno mesto na nekom uzvišenju, ili šumski proplanak, gde se narod okuplja da prinese žrtve bogovima. Najčešće su se prinosile žrtve u volovima ili ovnovima. Helmold kaže da, nakon prinošenja žrtve, kojem prisustvuju i žene i deca, „sav narod poseda za bogate stolove, jede, pije, pa se zatim veseli i igra“.
+		</p>
+	
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Mitski toponimi</h3>
+		<p>
+			U verovanjima Slovena sačuvala su se i određena mitska mesta koja nije moguće posetiti zbog toga što niko ne zna gde se nalaze. Među njima su najpoznatija Vitor planina, sveta šuma Žutibor i Trojanov grad, o kojima je predanje sačuvano malo bolje nego o drugim takvim mestima. 
+		</p>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<img class="symbol" src="img/kol2.svg">
+	</div>
+	</section>
+		
+		
+
+	
+
+
+
+<script src="js/jquery.backgroundMove.js" type="text/jscript"></script>
+ 
+<script>
+	
+	$(document).ready(function(){
+		var sirina = $(window).width();
+		
+		if(sirina > 768 ) {
+			$('.box').backgroundMove({
+		movementStrength:'50'
+			});
+		}
+});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</script>
+<script src="js/wow.js"></script>
+ <script>
+         new WOW().init();
+ </script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Staroslovenska mitologija</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+ 
+
+ 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+  <script>
+	$(window).on('scroll', function(){
+		if($(window).scrollTop()){
+			$('nav').addClass('black');
+		}
+		else
+		{
+			$('nav').removeClass('black');
+		}
+	})
+	
+	
+	
+	</script>
+<script>
+$(document).ready(function() {
+		
+	var respmenu 		= $('#respmenu');
+	var	menu 			= $('#nav>ul');
+
+	$(respmenu).on('click', function(e) {
+		e.preventDefault();
+		menu.slideToggle();
+	});
+	
+	$(window).resize(function(){
+		var sirina = $(window).width();
+		if(sirina > 768 && menu.is(':hidden')) {
+			menu.removeAttr('style');
+		}	
+	});
+	
+});	
+	
+
+
+</script>
+
+<script>   
+    $(window).scroll(function() {
+
+    if ($(this).scrollTop()>50)
+     {
+        $('.fade').fadeOut();
+     }
+    else
+     {
+      $('.fade').fadeIn();
+     }
+ });
+</script> 
+
+<script>
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+
+
+</head>
+
+<body>
+	<nav>
+		
+		<div id="logo">
+			<img src="img/logo.svg">
+		</div>
+		<div id="nav">
+		<ul>
+			<li><a href="index.html">Početna</a></li>
+			<li><a href="bogovi.html">Božanstvo</a></li>
+			<li><a href="bica.html">Mitska bića</a></li>
+			<li><a href="mesta.html">Mitska mesta</a></li>
+			<li><a href="#">Dokumentarni filmovi</a></li>
+		</ul>
+		<a href="#" id="respmenu" class="button"><i class="fa fa-lg fa-navicon"></i>&nbsp;&nbsp;&nbsp;&nbsp;Staroslovenska mitologija</a>
+		</div>
+	</nav>
+	<section id="hero" class="box">
+		<div id="heroin" class="fade  wow fadeIn">
+			<h1>STAROSLOVENSKA MITOLOGIJA</h1>
+ <br>
+			<a href="#sec1" class="button">Saznaj više</a>
+		</div>
+	</section>
+	
+	<section id="sec1">
+	
+	<div class="wrapper">
+		<div class="content wow fadeInLeft" data-wow-delay="0.1s">
+		<h1>O starim Slovenima</h1>
+		<p>Na sledećim stranicama ćemo se baviti Starim Slovenima, njihovom religijom i verovanjima. Pod pojmom Stari Sloveni smatraju se narodi i plemena Slovena pre primanja hrišćanstva, ili u početku pokrštavanja. Sloveni pripadaju grupi indoevropskih naroda, koje neki nazivaju i arijevskim narodima. Ova grupacija naroda dobila je ime indoevropski jer se smatrada je njihovo prvobitno stanište bila teritorija današnje Indije, oblast Arije (odatle naziv arijevski narodi).
+     Postoji dosta teorija o seobama Slovena, od onih neverovatnih koje kažu da su Sloveni zapravo Hiperborejci, čija je prapostojbina bila na Severnom polu, odakle su se preselili u Indiju, pa nakon toga u Evropu, i od kojih su Grci preuzeli znanja o bogovima i astronomiji, do onih verovatnih, koje kazuju da su se Sloveni jednostavno preselili iz Indije, preko Persije, u Evropu.</p>
+		</div>
+    <div class="content wow fadeInRight" data-wow-delay="0.2s">
+      <img src="img/SlavsMap.jpg">
+     <p>Pojedini istoričari smatraju da je u Evropi prapostojbina Slovena bila u okolini reke Dnjepar, Crnog i Baltičkog mora. Iz ove prapostojbine, veruje se, usled mnogih ratova i najezdi drugih naroda iz Azije, počeli su da se sele na jug i zapad. Većina prvih spisa koje pominju Slovene potiču od Vizantijskih učenika i misionara, jer je dosta teritorija koje su Sloveni naselili pripadalo Vizantijskom carstvu. Ostali pisani izvori o Slovenima potiču iz vremena kad su Sloveni napravili svoje prve države, uglavnom pod vođstvomgotskih trgovaca i franačkih sveštenika (Kijevska Rusija, Bugarsko carstvo, Velika Morava, Samovo carstvo, češke, polapske, baltičke, vislanske, hrvatske i srpske kneževine). Ovi spisi su uglavnom dosta subjektivno pisani, jer su sveštenici  na sve gledali kroz svoje učenje i dogme, a nisu želeli da dublje shvate slovensku kulturu. Tako se u tim spisima nalaze mnoga poređenja slovenskih bogova i mitskih bića sa Luciferom i drugim demonima.<br>
+      Kako su hrišćanski sveštenici već bili prisutni u predelima gde su živeli Sloveni, dolazi do pokušaja pokrštavanja Slovena. Hrišćanstvo je u to vreme postalo u Evropi oruđem moći. Papa i patrijarh mogli su poslati krunu nekom slovenskom knezu i proglasiti ga kraljem i tako mu uvećati ugled. Naime, hrišćanstvo su Sloveni primali ,,od vrha na dole’’. Kako su vladari čeznuli za više moći, mnogi su podlegli i dobrovoljno ili za obećanu krunu primili hrišćanstvo. Time su se postizali i dobri  odnosi sa hrišćanskim susedima, koji su bili vrbovani od strane crkve da napadnu nehristijanizovane Slovene. Ostatak stanovništva je hrišćanstvo primao pod pritiskom, koji su stvarali zajedničkim snagama vladari i sveštenici. Međutim, bilo je u ovom procesu dosta otpora i mnogi hrišćanski misionari izgubili su živote.
+      </p>
+		</div>
+		<div class="content2 wow fadeInUp" data-wow-delay="0.3s">
+		<img src="img/PohanskoMorava.jpg">
+		
+			<p>
+			S druge strane, i mnoga sela koja se nisu podvrgla i primila hrišćanstvo popaljena su i stanovništvo je pobijeno. Kipovi starih bogova su uništavani i paljeni. Svaki zapis o staroj veri je uništavan. Tako se stiglo i do skepticizma nekih naučnika koji dovode u pitanje činjenicu da su Sloveni pre primanja hrišćanstva imali pismo. Naime, postoji pisani izvor Crnorizca Hrabrog koji opisuje da su se Sloveni služili čertama i rezama. Jedini koji su žešće branili svoju veru do kraja su bili Polapski i Baltički Sloveni. Sloveni nisu imali ime za svoju veru. Oni su jednostavno živeli na način koji je ta vera propovedala. Vera starih Slovena ima iste korene kao i sve vere indoevropskih naroda, kao što su Indusi, Kelti, Germani, Persijanci, Grci. Njihova vera bila je zasnovana na silama prirode, ali ne u njihovom direktnom obliku, već personifikovanim kroz razne bogove i bića. Sebe su smatrali potomcima bogova. Uprkos velikom poštovanju prema ovim bogovima, Sloveni su im se obraćali kao sebi ravnim. U nedostatku hramova, sveta mesta za molitve posvećene bogovima bile su šume i gajevi. Kao što je to slučaj u mnogobožačkim religijama, i Sloveni su prinosili žrtve da odobrovolje bogove. Međutim, gotovo da se ne može sresti slučaj prinošenja ljudskih žrtava, kao što se može sresti kod velikog broja naroda. Kroz običaje su se sačuvale mnoge uspomene na slovenske bogove i način života. Međutim, ovi običaji su dobili veo Hrišćanstva, iako oni prvobitno nisu bili povezani sa Hrišćanstvom. Mnogi hrišćanski sveci dobili su osobine bogova, a dani posvećeni nekom bogu preobratili su se u dane posvećene svecu. Ovo ukazuje koliko je jaka bila vera starih Slovena. Ona se mogla približiti stanovništvu i biti prihvatljiva samo ukoliko se običaji zadrže a bogovi ostanu, makar samo kroz svoje osobine. Ovakav slučaj nije viđen ni kod jednog drugog naroda..
+			</p>
+		</div>
+		<hr>
+	<div id="content3">
+		
+		<header class="wow fadeInUp" data-wow-delay="0.1s">
+		<h2>Božanstvo</h2>
+		<p>Slovenske bogove jako je teško klasifikovati. Njihove funkcije često se mešaju, a sama njihova priroda je neizdiferencirana. Zbog toga nije moguće slediti neku od matrica kojom se najčešće sistematizuju mitologije ostalih naroda, kao što je recimo astrološka matrica ili matrica kabalističkog Drveta života. Zato smo bogove Slovena klasifikovalina dva načina, kao one tradicionalne i kao one netradicionalne. Da bi podela bila preciznija tradicionlane smo podelili na Kijevski i Polapski panteon, kao i na bogove koji su se obožavali na drugim teritorijama. Kijevski panteon je, naravno vezan za Istočne Slovene, a polabski je bio vezan za Slovene koji su živeli između reke Odre i Labe, dok je njihova granica na severu bila Baltičko more. Polapski panteon, međutim, obuhvata mnogo širu teritoriju na kojoj su živela mnoga plemena kao što su Polabljani, Obotri i mnogi drugi. U netradicionalna božanstva spadaju pretežno božanstva slovenskog vedizma, neopaganskog pokreta koji je zasnovan na knjigama Aleksandra Asova i Jurija Miroljubova. Međutim, u netradicionalne bogove stvaili smo i one čija je tradicionalnost diskutabilna, odnosno, za koje se ne može sa sigurnošću tvrditi da su slovenskog porekla.</p>
+		</header>
+		
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.2s"><h3>Kijevski panteon</h3>
+		<p>  
+			U okolini Kijeva su se najviše poštovala dole navedena božanstva. Međutim ne- znači da ostala božanstva se nisu poštovala, ali u tom regionu su ovi bogovi bili najistaknutiji.</p>
+			<ul>
+				<li>Perun</li>
+				<li>Dažbog</li>
+				<li>Mokoš</li>
+				<li>Stribog</li>
+				<li>Simargl</li>
+				<li>Veles</li>
+				<li>Horz</li>
+			</ul>
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Polapski panteon</h3>
+		<p>
+			U Polablju (okolini reke Labe) su se najviše poštovala dole navedena božanstva. Međutim ne znači da ostala božanstva se nisu poštovala, ali u tom regionu su ovi bogovi bili najistaknutiji.
+		</p>
+		<ul>
+				<li>Svetovid</li>
+				<li>Triglav</li>
+				<li>Radgost</li>
+				<li>Živa</li>
+				<li>Svarožić</li>
+				<li>Prov</li>
+				<li>Pripegala</li>
+				<li>Podaga</li>
+			</ul>
+		</div>
+		<a href="bogovi.html" class="button">Čitaj dalje</a>
+		<hr>
+	<div id="content4">
+		<div class="duplo wow fadeInLeft" data-wow-delay="0.2s">
+			<a href="bica.html"><h1>Mitska bića</h1></a>
+			
+		</div>
+		
+		<div class="duplo voda wow fadeInRight" data-wow-delay="0.3s">
+			<a href="mesta.html"><h1>Mitska mesta</h1></a>
+			
+		</div>
+		<div class="duplo sire wow fadeInUp" data-wow-delay="0.3s">
+			<a href="movie.html"><h1>Dokumentarni filmovi</h1></a>
+			
+		</div>
+		
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	<img class="symbol" src="img/kol2.svg">
+	</div>
+	
+	</section>
+		
+		
+
+	
+
+
+
+<script src="js/jquery.backgroundMove.js" type="text/jscript"></script>
+ 
+<script>
+	
+	$(document).ready(function(){
+		var sirina = $(window).width();
+		
+		if(sirina > 768 ) {
+			$('.box').backgroundMove({
+		movementStrength:'50'
+			});
+		}
+});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</script>
+<script src="js/wow.js"></script>
+ <script>
+         new WOW().init();
+ </script>
+</body>
+</html>

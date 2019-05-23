@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Staroslovenska mitologija</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.css"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+ 
+
+ 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+  <script>
+	$(window).on('scroll', function(){
+		if($(window).scrollTop()){
+			$('nav').addClass('black');
+		}
+		else
+		{
+			$('nav').removeClass('black');
+		}
+	})
+	
+	
+	
+	</script>
+<script>
+$(document).ready(function() {
+		
+	var respmenu 		= $('#respmenu');
+	var	menu 			= $('#nav>ul');
+
+	$(respmenu).on('click', function(e) {
+		e.preventDefault();
+		menu.slideToggle();
+	});
+	
+	$(window).resize(function(){
+		var sirina = $(window).width();
+		if(sirina > 768 && menu.is(':hidden')) {
+			menu.removeAttr('style');
+		}	
+	});
+	
+});	
+	
+
+
+</script>
+
+<script>   
+    $(window).scroll(function() {
+
+    if ($(this).scrollTop()>50)
+     {
+        $('.fade').fadeOut();
+     }
+    else
+     {
+      $('.fade').fadeIn();
+     }
+ });
+</script> 
+
+<script>
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+
+
+</head>
+
+<body>
+	<nav>
+		
+		<div id="logo">
+			<img src="img/logo.svg">
+		</div>
+		<div id="nav">
+		<ul>
+			<li><a href="index.html">Početna</a></li>
+			<li><a href="bogovi.html">Božanstvo</a></li>
+			<li><a href="bica.html">Mitska bića</a></li>
+			<li><a href="mesta.html">Mitska mesta</a></li>
+			<li><a href="movie.html">Dokumentarni filmovi</a></li>
+		</ul>
+		<a href="#" id="respmenu" class="button"><i class="fa fa-lg fa-navicon"></i>&nbsp;&nbsp;&nbsp;&nbsp;Staroslovenska mitologija</a>
+		</div>
+	</nav>
+	<section id="hero" class="box temp movie">
+		<div id="heroin" class="fade  wow fadeIn">
+			<h1><span> STAROSLOVENSKA MITOLOGIJA </span><br>
+			Dokumentarni filomovi</h1>
+		</div>
+	</section>
+	
+	<section id="sec1">
+	<div class="wrapper">
+		
+	<div id="content3">
+		<h1>Dokumentarni serijal</h1>
+		
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.2s"><h3>Prva epizoda</h3>
+		<p>  
+			U sastavu dokumentarnog serijala o starim Slovenima snimljene su dve epizode. Prva epizoda pod nazivom ,,Stari Sloveni - istorija i tradicija" govori o istoriji Slovena, počev od njihove prapostojbine, preko prvih država i migracija, kao i o tradiciji i običajima koji su sačuvana do danas poput Slave, običaja vezanih za kult predaka, Božić i Badnji dan.
+
+</p>
+		
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Druga epizoda</h3>
+		<p>
+			Druga epizoda koja nosi ime ,,Stari Sloveni - verovanja i običaji'', govori o mitologiji Slovena, njihovim božanstvima i raznim običajima koji su vezani za bažanstva i mitska bića, kao i o narodnoj religiji Srba, mitskim bićima Srba koja vode poreklo iz staroslovenske mitologije, kao i o mnogim verovanjima kako se od tih mitskih bića može zaštiti.
+		</p>
+		
+		</div>
+		
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.2s"><h3>Istorija i tradicija</h3> 
+		<iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/GWX6Vjw30OE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		
+		<p>Film govori o istoriji Slovena i do danas sačuvanoj tradiciji koju su Sloveni nasledili iz stare slovenske vere. Film razmatra problem prapostojbine Slovena, kao i razloge za seobe i dolazak Slovena na ove prostore. Govori o načinu života Slovena, njihovoj odeći, nakitu, oruđima i načinu privređivanju. Prati stvaranje prvih slovenskih država, puput Samove države, Velike Morave, Kijevske Rusije, prve hrvatse i srpske države.</p>
+		
+		</div>
+		<div class="bogovi wow fadeInUp" data-wow-delay="0.3s"><h3>Verovanja i običaji</h3>
+		<iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/Bu46XBS5tqo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<p>Film objašnjava šta je mitologija i šta za narod ona predstavlja. Govori o staroslovenskom panteonu i mitskim bićima. Razmatra problem vrhovnog boga kod Slovena. Govori o najpoznatijim slovenskim božanstvima poput Svetovida, Svaroga, Peruna, Dažboga, Velesa, Žive, Morane i Devane. Objašnjava običaje čija simbolika je vezana za slovenske bogove. Upoređuje osobine slovenskih božanstava sa hrišćanskim svetiteljima koji su donekle preuzeli funkcije nekih od slovenskih bogova...</p>
+		</div>
+	
+	</div>
+	
+	
+	
+	
+	
+	<img class="symbol" src="img/kol2.svg">
+	</div>
+	</section>
+		
+		
+
+	
+
+
+
+<script src="js/jquery.backgroundMove.js" type="text/jscript"></script>
+ 
+<script>
+	
+	$(document).ready(function(){
+		var sirina = $(window).width();
+		
+		if(sirina > 768 ) {
+			$('.box').backgroundMove({
+		movementStrength:'50'
+			});
+		}
+});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</script>
+<script src="js/wow.js"></script>
+ <script>
+         new WOW().init();
+ </script>
+</body>
+</html>

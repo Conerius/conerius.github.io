@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mitska bica</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+ <script>
+	$(window).on('scroll', function(){
+		if($(window).scrollTop()){
+			$('nav').addClass('black');
+		}
+		else
+		{
+			$('nav').removeClass('black');
+		}
+	})
+</script>
+
+<script>   
+    $(window).scroll(function() {
+
+    if ($(this).scrollTop()>50)
+     {
+        $('.fade').fadeOut();
+     }
+    else
+     {
+      $('.fade').fadeIn();
+     }
+ });
+</script>
+
+
+
+
+
+</head>
+
+<body>
+	<nav>
+		
+		<div id="logo">
+			<img src="img/logo.svg">
+		</div>
+		<div id="nav">
+		<ul>
+			<li><a href="index.html">Početna</a></li>
+			<li><a href="#">Bogovi</a></li>
+			<li><a href="#">Mitska bića</a></li>
+			<li><a href="#">Dokumentarni filmovi</a></li>
+		</ul>
+		</div>
+	</nav>
+	<section id="hero2">
+		<div id="heroin" class="fade">
+			<h6>STAROSLOVENSKA MITOLOGIJA</h6>
+			<h2>MITSKA BIĆA</h2>
+		</div>
+	</section>
+	<section id="sec1">
+		<div class="wrapper">
+		<h1>Mitska bica</h1>
+		<p> Stari sloveni su gajili verovanja u sledeca mitska bića. Neka od njih su se i danas zadržala i u nekim krajevima se i dalje veruje u postojanje ovih bića. A neki su doživeli svetsku slavu i izašli iz okvira Slovenske mitologije, poput vampira. Za više informacija o nekom mitskom biću kliknite na neki od dole navedenih linkova.</p>
+		</div>
+	</section>
+	
+
+
+
+
+
+
+
+</body>
+</html>
